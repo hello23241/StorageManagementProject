@@ -51,8 +51,8 @@ namespace StorageManagementProject
             if (e.CloseReason == CloseReason.UserClosing)
             {
                 var result = MessageBox.Show(
-                    "Are you sure you want to close this form?",
-                    "Confirm Close",
+                    "Bạn có chắc chắn muốn hủy?",
+                    "Xác nhận",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question,
                     MessageBoxDefaultButton.Button2);
